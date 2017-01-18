@@ -1,0 +1,15 @@
+[submodule "files/libubox"]
+	path = files/libubox
+	url = https://git.lede-project.org/project/libubox.git
+[submodule "files/ubus"]
+	path = files/ubus
+	url = https://git.lede-project.org/project/ubus.git
+[submodule "files/firewall3"]
+	path = files/firewall3
+	url = https://git.lede-project.org/project/firewall3.git
+[submodule "files/uci"]
+	path = files/uci
+	url = https://git.lede-project.org/project/uci.git
+[submodule "files/netifd"]
+	path = files/netifd
+	url = https://git.lede-project.org/project/netifd.git
