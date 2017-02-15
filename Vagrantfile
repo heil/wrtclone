@@ -39,6 +39,22 @@ sudo yum install epel-release -y
 sudo yum install vim-enhanced -y
 sudo yum install -y gcc rpm-devel
 
+#sudo yum install -y cmake lua-devel libstdc++-devel json-devel json-c-devel iptables-devel
+
+#libubox
+#/etc/ld.so.conf.d/local.conf (/usr/local/lib)
+
+#ubus
+#uci
+#firewall (cmake  -DDISABLE_STATIC_EXTENSIONS=yes  .)
+
+#sudo yum install libnl3-devel.x86_64 -y
+
+#netifd
+# 24 IF (DEFINED nl_include_dir)
+# 25   include_directories(${nl_include_dir})
+# 26 ENDIF(
+
 
 SCRIPT
 
