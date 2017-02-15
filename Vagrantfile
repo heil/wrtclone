@@ -46,7 +46,7 @@ sudo yum install -y gcc rpm-devel
 
 #ubus
 #uci
-#firewall (cmake  -DDISABLE_STATIC_EXTENSIONS=yes  .)
+#firewall (cmake  -devel-DDISABLE_STATIC_EXTENSIONS=yes  .)
 
 #sudo yum install libnl3-devel.x86_64 -y
 
